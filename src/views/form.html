@@ -1,14 +1,22 @@
-<form id="insurance-form">
-  <label for="age">Edad:</label>
-  <input type="number" id="age" name="age" required />
-  <br />
-  <label for="insurance-type">Tipo de seguro:</label>
-  <select id="insurance-type" name="insurance-type" required>
-    <option value="auto">Seguro de Automóvil</option>
-    <option value="home">Seguro de Hogar</option>
-    <option value="health">Seguro de Salud</option>
-    <!-- Agregar más opciones según sea necesario -->
-  </select>
-  <br />
-  <button type="submit">Obtener Cotización</button>
-</form>
+<div class="content">
+  <h2>Realiza la cotizacion de tu seguro</h2>
+  <p>
+    A travez de este formulario podras calcular cualquiera de nuestras polizas y elegir la
+    que mas te convenga.
+  </p>
+  <form id="insurance-form">
+    <label for="age">Edad:</label>
+    <input type="number" id="age" name="age" required />
+    <br />
+    <label for="insurance-type">Tipo de seguro:</label>
+    <select id="insurance-type" name="insurance-type" required>
+      <option value="auto">Seguro de Automóvil</option>
+      <option value="home">Seguro de Hogar</option>
+      <option value="health">Seguro de Salud</option>
+      <!-- Agregar más opciones según sea necesario -->
+    </select>
+    <br />
+    <button type="submit">Obtener Cotización</button>
+  </form>
+  <div id="quote-result"></div>
+</div>

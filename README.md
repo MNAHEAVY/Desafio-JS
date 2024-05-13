@@ -1,6 +1,6 @@
 Idea del Proyecto: Plataforma de Seguros en Línea
 Descripción:
-Desarrollar una plataforma en línea para una empresa de seguros donde los usuarios puedan obtener cotizaciones, administrar sus pólizas y realizar reclamos de manera eficiente y sin recargar la página.
+Desarrollar una plataforma en línea para una empresa de seguros donde los usuarios puedan obtener cotizaciones, administrar sus pólizas y realizar reclamos de manera eficiente.
 
 Características principales:
 
