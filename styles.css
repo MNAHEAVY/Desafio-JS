@@ -290,6 +290,14 @@ button:hover {
   padding: 10px;
   border-radius: 5px;
 }
+.notfound {
+  position: absolute;
+  top: 50vh;
+  left: 50vh;
+  background: blanchedalmond;
+  padding: 50px;
+  border-radius: 16px;
+}
 
 /* Media query para pantallas de hasta 425px */
 @media (max-width: 425px) {
@@ -358,7 +366,7 @@ button:hover {
 
   /* Encabezado y pie de página */
   header {
-    height: 50px;
+    height: 60px;
   }
 
   footer {
