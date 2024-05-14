@@ -35,7 +35,7 @@ footer {
 
 main {
   padding: 20px;
-  height: calc(66vh + 11px);
+  height: auto;
 }
 
 nav {
@@ -91,6 +91,7 @@ a {
 .content {
   display: flex;
   flex-direction: column;
+  height: calc(67vh + 4px);
 }
 .oficce {
   height: 472px;
@@ -209,6 +210,7 @@ button:hover {
   flex-direction: column;
   align-items: center;
   font-size: 30px;
+  height: calc(67vh + 4px);
 }
 
 .p-about {
@@ -220,4 +222,64 @@ button:hover {
   position: absolute;
   top: 24vh;
   left: 50%;
+}
+
+.insurance-card {
+  background-color: #e0f2f1; /* Celeste claro */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 20px; /* Espaciado interno */
+  margin-bottom: 20px; /* Margen inferior */
+  width: 250px; /* Ancho de la tarjeta */
+}
+
+/* Estilos para el título */
+.insurance-card h2 {
+  color: orange; /* Color naranja */
+  margin-top: 0; /* Eliminar margen superior */
+}
+
+/* Estilos para el resto del contenido */
+.insurance-card p,
+.insurance-card ul,
+.insurance-card button {
+  color: #757575;
+  font-size: 10px;
+  white-space: break-spaces;
+}
+
+/* Estilos para la lista de coberturas */
+.insurance-card ul {
+  margin-top: 10px; /* Espaciado superior */
+  margin-bottom: 10px; /* Espaciado inferior */
+  padding-left: 20px; /* Sangría a la izquierda */
+}
+
+/* Estilos para el botón */
+.insurance-card button {
+  background-color: #ffcc80; /* Naranja claro */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 10px 20px; /* Espaciado interno */
+  cursor: pointer; /* Cursor apuntador */
+  display: block; /* Mostrar como bloque */
+  margin: 0 auto; /* Centrar horizontalmente */
+}
+
+.insurance-card button:hover {
+  background-color: #ffb74d;
+}
+
+.insurance-conten {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Dos columnas de igual tamaño */
+  grid-auto-rows: minmax(
+    100px,
+    auto
+  ); /* Altura mínima de 100px, se ajusta automáticamente */
+  gap: 20px; /* Espacio entre las celdas */
+}
+
+.content-b {
+  display: flex;
+  flex-direction: column;
 }

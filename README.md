@@ -1,30 +1,36 @@
-Idea del Proyecto: Plataforma de Seguros en Línea
-Descripción:
-Desarrollar una plataforma en línea para una empresa de seguros donde los usuarios puedan obtener cotizaciones, administrar sus pólizas y realizar reclamos de manera eficiente.
+Plataforma de Seguros en Línea
+¡Bienvenido a la Plataforma de Seguros en Línea! Soy Martin Araujo, el desarrollador detrás de esta aplicación que busca hacer que la gestión de seguros sea más accesible y eficiente para todos.
 
-Características principales:
+Descripción
+Desarrollé esta plataforma en línea como una pseudo página de seguros, es decir, un proyecto personal que sirve como un Single Page Application (SPA) para demostrar mis habilidades en desarrollo web. La idea surgió después de investigar a fondo la empresa con la cual deseo trabajar, la cual trabaja estrechamente con aseguradoras. Este proyecto busca no solo exhibir mis capacidades técnicas, sino también mostrar un entendimiento profundo de las necesidades y operaciones de la industria de seguros.
 
-Cotizador de seguros: Los usuarios podrán ingresar información básica (como edad, tipo de seguro deseado, etc.) y obtener una cotización instantánea para diferentes tipos de seguros (automóvil, hogar, salud, etc.).
-Administración de pólizas: Los usuarios podrán ver todas sus pólizas existentes, incluidos los detalles de cobertura, fechas de vencimiento y primas. También podrán realizar cambios en sus pólizas, como agregar o eliminar coberturas.
-Reclamos: Los usuarios podrán presentar reclamos de seguros directamente desde la plataforma. Podrán proporcionar detalles sobre el incidente, adjuntar documentos relevantes y hacer un seguimiento del estado del reclamo.
-Navegación sin recarga: Todas las acciones realizadas por el usuario, como obtener cotizaciones, administrar pólizas o presentar reclamos, se realizarán sin recargar la página, brindando una experiencia de usuario fluida.
-Implementación:
+La plataforma está diseñada para proporcionar a los usuarios una experiencia simplificada para obtener cotizaciones, administrar sus pólizas y presentar reclamos de manera rápida y sencilla.
 
-Utiliza HTML, CSS y JavaScript para construir la interfaz de usuario y la funcionalidad de la aplicación.
-Implementa una API falsa para simular la obtención de cotizaciones y la gestión de pólizas y reclamos. Puedes almacenar datos ficticios en un objeto JSON.
-Utiliza JavaScript para manejar la lógica de la aplicación, como el cálculo de cotizaciones, la gestión de pólizas y la presentación de reclamos.
-Diseña una interfaz de usuario intuitiva y fácil de usar, teniendo en cuenta la seguridad y la privacidad de los datos del usuario.
-Asegúrate de que la aplicación sea responsiva y se vea bien en dispositivos móviles y de escritorio.
-Extras:
+Características principales
+Cotizador de seguros
+Los usuarios pueden ingresar información básica y obtener cotizaciones instantáneas para diferentes tipos de seguros, como automóvil, hogar y salud.
 
-Implementa un sistema de autenticación seguro para que los usuarios puedan registrarse, iniciar sesión y acceder a sus pólizas personalizadas.
-Agrega validaciones de datos para garantizar que la información ingresada por los usuarios sea precisa y completa.
-Incluye herramientas de seguimiento y notificaciones para informar a los usuarios sobre el estado de sus reclamos.
-Integra servicios de terceros, como mapas para ubicar centros de reparación o asistencia en carretera.
-Proporciona herramientas de análisis para que la empresa de seguros pueda obtener información sobre el comportamiento y las necesidades de sus clientes.
-Entrega:
+Administración de pólizas
+Los usuarios pueden ver todas sus pólizas existentes, incluidos los detalles de cobertura, fechas de vencimiento y primas. También tienen la capacidad de realizar cambios en sus pólizas, como agregar o eliminar coberturas.
 
-Divide el proyecto en etapas y establece plazos claros para cada una.
-Utiliza control de versiones (como Git) para mantener un registro de los cambios y facilitar la colaboración si es necesario.
-Una vez completado, despliega la aplicación en un entorno de producción seguro y realiza pruebas exhaustivas para garantizar su funcionamiento correcto.
-Este proyecto te permitirá demostrar tus habilidades en JavaScript Vanilla mientras creas una aplicación web útil y práctica para una empresa de seguros. ¡Espero que encuentres esta idea inspiradora y desafiante! Si necesitas más orientación o tienes alguna pregunta específica, ¡no dudes en preguntar!
+Reclamos
+Los usuarios pueden presentar reclamos de seguros directamente desde la plataforma. Pueden proporcionar detalles sobre el incidente, adjuntar documentos relevantes y hacer un seguimiento del estado del reclamo.
+
+Navegación sin recarga
+Todas las acciones realizadas por el usuario se realizan sin recargar la página, lo que proporciona una experiencia de usuario fluida y eficiente.
+
+Implementación
+La plataforma está construida utilizando tecnologías web estándar:
+
+HTML, CSS y JavaScript para la interfaz de usuario y la funcionalidad de la aplicación.
+Se ha implementado una API falsa para simular la obtención de cotizaciones y la gestión de pólizas y reclamos, almacenando datos ficticios en un objeto JSON.
+Se utiliza JavaScript para manejar la lógica de la aplicación, como el cálculo de cotizaciones, la gestión de pólizas y la presentación de reclamos.
+El diseño se centra en una interfaz de usuario intuitiva y fácil de usar, priorizando la seguridad y la privacidad de los datos del usuario.
+La aplicación es totalmente responsiva y compatible con dispositivos móviles y de escritorio.
+
+Entrega
+El proyecto se ha estructurado en etapas con plazos claros para cada una de ellas. Se utiliza control de versiones con Git para mantener un registro de los cambios y facilitar la colaboración si es necesario.
+
+Una vez completado, la aplicación se despliega en un entorno de producción seguro y se somete a pruebas exhaustivas para garantizar su correcto funcionamiento.
+
+¡Gracias por ser parte de este proyecto! Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto conmigo.
