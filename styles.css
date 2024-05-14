@@ -127,3 +127,97 @@ button:hover {
 #quote-result {
   font-weight: bold;
 }
+
+.insurance-cont {
+  padding: 20px 0px 20px 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 2rem;
+  width: 72vh;
+  overflow-x: auto;
+  white-space: nowrap;
+  cursor: grab;
+}
+
+.insudiv {
+  display: flex;
+  height: 250px;
+  width: 200px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.insudiv-h {
+  color: #343a40;
+  font-size: 16px;
+}
+.insudiv-p {
+  width: 150px;
+  white-space: break-spaces;
+}
+
+.bn53 {
+  background-color: #b81515;
+  padding: 7px;
+  width: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  animation: bn53bounce 4s infinite;
+  cursor: pointer;
+}
+
+@keyframes bn53bounce {
+  5%,
+  50% {
+    transform: scale(1);
+  }
+
+  10% {
+    transform: scale(1);
+  }
+
+  15% {
+    transform: scale(1);
+  }
+
+  20% {
+    transform: scale(1) rotate(-5deg);
+  }
+
+  25% {
+    transform: scale(1) rotate(5deg);
+  }
+
+  30% {
+    transform: scale(1) rotate(-3deg);
+  }
+
+  35% {
+    transform: scale(1) rotate(2deg);
+  }
+
+  40% {
+    transform: scale(1) rotate(0);
+  }
+}
+
+.content-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+}
+
+.p-about {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.form-claim {
+  position: absolute;
+  top: 24vh;
+  left: 50%;
+}

@@ -5,15 +5,11 @@ export function handleHomeLogic() {
   Object.keys(insuranceData).forEach((key) => {
     const insurance = insuranceData[key];
     const insuranceHTML = `
-    <div>
-    <h2>${insurance.name}</h2>
-    <p><strong>Descripción:</strong> ${insurance.description}</p> 
-    <p><strong>Cobertura:</strong></p>
-    <ul>
-    ${insurance.coverage.map((item) => `<li>${item}</li>`).join("")}
-    </ul>
-    <p><strong>Rango de precios:</strong> ${insurance.priceRange.join(", ")}</p>
-    </div>
+    <div class="insudiv">
+    <h2 class="insudiv-h">${insurance.name}</h2>
+    <svg width="30" height="30"  fill="none" xmlns="http://www.w3.org/2000/svg"><path d="${insurance.svg}" stroke="#000" stroke-width="2" /></svg>
+    <p class="insudiv-p">${insurance.description}</p> 
+    
     `;
     container.innerHTML += insuranceHTML;
   });

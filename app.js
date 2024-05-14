@@ -1,5 +1,6 @@
 import { handleFormLogic } from "./src/controllers/form.js";
 import { handleHomeLogic } from "./src/controllers/home.js";
+import { handleInsurancesLogic } from "./src/controllers/insurances.js";
 
 const route = (event) => {
   event = event || window.event;
@@ -20,7 +21,7 @@ const routes = {
   },
   "/insurances": {
     view: "./src/views/insurances.html",
-    //handler: handleHomeLogic
+    handler: handleInsurancesLogic,
   },
   "/claims": {
     view: "./src/views/claims.html",
