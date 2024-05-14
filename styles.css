@@ -29,6 +29,9 @@ header {
 footer {
   height: 8vh;
 }
+.address {
+  color: #eee0e4;
+}
 
 main {
   padding: 20px;

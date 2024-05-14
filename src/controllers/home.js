@@ -1,10 +1,10 @@
 import { insuranceData } from "../utils/data.js";
+export function handleHomeLogic() {
+  const container = document.getElementById("insuranceContainer");
 
-const container = document.getElementById("insuranceContainer");
-
-Object.keys(insuranceData).forEach((key) => {
-  const insurance = insuranceData[key];
-  const insuranceHTML = `
+  Object.keys(insuranceData).forEach((key) => {
+    const insurance = insuranceData[key];
+    const insuranceHTML = `
     <div>
     <h2>${insurance.name}</h2>
     <p><strong>Descripción:</strong> ${insurance.description}</p> 
@@ -15,5 +15,6 @@ Object.keys(insuranceData).forEach((key) => {
     <p><strong>Rango de precios:</strong> ${insurance.priceRange.join(", ")}</p>
     </div>
     `;
-  container.innerHTML += insuranceHTML;
-});
+    container.innerHTML += insuranceHTML;
+  });
+}
