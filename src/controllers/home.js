@@ -7,7 +7,7 @@ export function handleHomeLogic() {
     const insuranceHTML = `
     <div class="insudiv">
     <h2 class="insudiv-h">${insurance.name}</h2>
- {insurance.svg}
+    <img src=${insurance.svg} width="30px" height="30px"/>
     <p class="insudiv-p">${insurance.description}</p> 
     
     `;

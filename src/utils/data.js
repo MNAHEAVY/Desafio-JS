@@ -2,7 +2,7 @@ export const insuranceData = {
   auto: {
     name: "Seguro de Automóvil",
     description: "Cubre daños a tu vehículo y a terceros en caso de accidente.",
-    svg: `<svg width="30" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 8V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v4h4a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-4v4a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-4H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2zm2-4v5a1 1 0 0 1-1 1H4v4h5a1 1 0 0 1 1 1v5h4v-5a1 1 0 0 1 1-1h5v-4h-5a1 1 0 0 1-1-1V4z"/></svg>`,
+    svg: "https://www.svgrepo.com/show/533551/car.svg",
     coverage: [
       "Daños a terceros",
       "Robo",
@@ -14,14 +14,14 @@ export const insuranceData = {
   home: {
     name: "Seguro de Hogar",
     description: "Protege tu hogar contra incendios, robos y otros desastres.",
-    svg: "srcassetshome-svgrepo-com.svg",
+    svg: "https://www.svgrepo.com/show/521703/home.svg",
     coverage: ["Incendio", "Robo", "Daños por agua", "Responsabilidad civil"],
     priceRange: ["$1000 - $3000", "$1500 - $4000", "$2000 - $5000", "$1200 - $3500"],
   },
   health: {
     name: "Seguro de Salud",
     description: "Cubre gastos médicos en caso de enfermedad o accidente.",
-    svg: `<svg width="30" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 8V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v4h4a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-4v4a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-4H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2zm2-4v5a1 1 0 0 1-1 1H4v4h5a1 1 0 0 1 1 1v5h4v-5a1 1 0 0 1 1-1h5v-4h-5a1 1 0 0 1-1-1V4z"/></svg>`,
+    svg: "https://www.svgrepo.com/show/503369/health.svg",
     coverage: [
       "Consultas médicas",
       "Hospitalización",
@@ -38,7 +38,7 @@ export const insuranceData = {
   life: {
     name: "Seguro de Vida",
     description: "Proporciona beneficios a los beneficiarios en caso de fallecimiento.",
-    svg: `<svg width="30" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 8V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v4h4a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-4v4a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-4H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2zm2-4v5a1 1 0 0 1-1 1H4v4h5a1 1 0 0 1 1 1v5h4v-5a1 1 0 0 1 1-1h5v-4h-5a1 1 0 0 1-1-1V4z"/></svg>`,
+    svg: "https://www.svgrepo.com/show/486422/health-filled.svg",
     coverage: [
       "Beneficio por fallecimiento",
       "Beneficio por invalidez",
@@ -55,7 +55,7 @@ export const insuranceData = {
   travel: {
     name: "Seguro de Viaje",
     description: "Cubre gastos médicos y cancelaciones durante tus viajes.",
-    svg: `<svg width="30" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 8V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v4h4a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-4v4a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-4H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2zm2-4v5a1 1 0 0 1-1 1H4v4h5a1 1 0 0 1 1 1v5h4v-5a1 1 0 0 1 1-1h5v-4h-5a1 1 0 0 1-1-1V4z"/></svg>`,
+    svg: "https://www.svgrepo.com/show/502873/travel-bag.svg",
     coverage: [
       "Asistencia médica",
       "Cancelación de viaje",
@@ -72,7 +72,7 @@ export const insuranceData = {
   pet: {
     name: "Seguro para Mascotas",
     description: "Protege la salud de tus mascotas y cubre gastos veterinarios.",
-    svg: `<svg width="30" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 8V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v4h4a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-4v4a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-4H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2zm2-4v5a1 1 0 0 1-1 1H4v4h5a1 1 0 0 1 1 1v5h4v-5a1 1 0 0 1 1-1h5v-4h-5a1 1 0 0 1-1-1V4z"/></svg>`,
+    svg: "https://www.svgrepo.com/show/354654/pet-14.svg",
     coverage: ["Consultas veterinarias", "Vacunas", "Cirugías", "Hospitalización"],
     priceRange: [
       "$10 - $50 por mes",
@@ -85,7 +85,7 @@ export const insuranceData = {
     name: "Seguro de Incapacidad",
     description:
       "Proporciona beneficios en caso de incapacidad para trabajar debido a lesiones o enfermedades.",
-    svg: `<svg width="30" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 8V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v4h4a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-4v4a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-4H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2zm2-4v5a1 1 0 0 1-1 1H4v4h5a1 1 0 0 1 1 1v5h4v-5a1 1 0 0 1 1-1h5v-4h-5a1 1 0 0 1-1-1V4z"/></svg>`,
+    svg: "https://www.svgrepo.com/show/333986/handicap.svg",
     coverage: [
       "Beneficio por incapacidad temporal",
       "Beneficio por incapacidad permanente",
