@@ -1,3 +1,5 @@
+// view/form.js
+
 import { insuranceData } from "../utils/data.js";
 
 const insuranceTypeSelect = document.getElementById("insurance-type");
@@ -25,20 +27,6 @@ insuranceTypeSelect.addEventListener("change", function () {
 // Llena las opciones de cobertura inicialmente
 fillCoverageOptions(insuranceTypeSelect.value);
 
-// Llena las opciones de cobertura cuando se selecciona un tipo de seguro
-function fillCoverageOptions(insuranceType) {
-  coverageSelect.innerHTML = '<option value="">Seleccione una cobertura</option>';
-  if (insuranceType in insuranceData) {
-    const coverageOptions = insuranceData[insuranceType].coverage;
-    coverageOptions.forEach((option) => {
-      const optionElement = document.createElement("option");
-      optionElement.value = option;
-      optionElement.textContent = option;
-      coverageSelect.appendChild(optionElement);
-    });
-  }
-}
-
 document.getElementById("insurance-form").addEventListener("submit", function (event) {
   event.preventDefault();
 
@@ -53,6 +41,20 @@ document.getElementById("insurance-form").addEventListener("submit", function (e
   document.getElementById("quote-result").innerText =
     "La cotización para el seguro de " + insuranceType + " es: " + quote;
 });
+
+function fillCoverageOptions(insuranceType) {
+  const coverageSelect = document.getElementById("coverage");
+  coverageSelect.innerHTML = '<option value="">Seleccione una cobertura</option>';
+  if (insuranceType in insuranceData) {
+    const coverageOptions = insuranceData[insuranceType].coverage;
+    coverageOptions.forEach((option) => {
+      const optionElement = document.createElement("option");
+      optionElement.value = option;
+      optionElement.textContent = option;
+      coverageSelect.appendChild(optionElement);
+    });
+  }
+}
 
 function calculateQuote(age, insuranceType, coverage) {
   let quote;
