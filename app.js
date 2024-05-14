@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     insurances: { view: "insurances", controller: "insurances" },
     claims: { view: "claims", controller: "claims" },
     about: { view: "about", controller: "about" },
+    notfound: { view: "notfound", controller: "notfound" },
   };
 
   links.forEach((link) => {
@@ -14,7 +15,14 @@ document.addEventListener("DOMContentLoaded", function () {
       event.preventDefault();
       const view = getViewFromHref(this.getAttribute("href"));
       chargeView(views[view]);
+      history.pushState(null, null, this.getAttribute("href"));
     });
+  });
+
+  window.addEventListener("popstate", function (event) {
+    const path = window.location.pathname;
+    const view = getViewFromHref(path);
+    chargeView(views[view]);
   });
 
   function chargeView({ view, controller }) {
@@ -39,7 +47,11 @@ document.addEventListener("DOMContentLoaded", function () {
   function getViewFromHref(href) {
     const clean = href.replace(/#|\//g, "");
 
-    return clean !== "" ? clean : "home";
+    if (views.hasOwnProperty(clean)) {
+      return clean;
+    } else {
+      return "notfound";
+    }
   }
 
   chargeView(views["home"]);

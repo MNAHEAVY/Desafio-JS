@@ -1,4 +1,4 @@
-const insuranceData = {
+export const insuranceData = {
   auto: {
     name: "Seguro de Automóvil",
     description: "Cubre daños a tu vehículo y a terceros en caso de accidente.",
