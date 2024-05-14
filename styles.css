@@ -225,20 +225,18 @@ button:hover {
 }
 
 .insurance-card {
-  background-color: #e0f2f1; /* Celeste claro */
-  border-radius: 10px; /* Bordes redondeados */
-  padding: 20px; /* Espaciado interno */
-  margin-bottom: 20px; /* Margen inferior */
-  width: 250px; /* Ancho de la tarjeta */
+  background-color: #e0f2f1;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 250px;
 }
 
-/* Estilos para el título */
 .insurance-card h2 {
-  color: orange; /* Color naranja */
-  margin-top: 0; /* Eliminar margen superior */
+  color: orange;
+  margin-top: 0;
 }
 
-/* Estilos para el resto del contenido */
 .insurance-card p,
 .insurance-card ul,
 .insurance-card button {
@@ -247,22 +245,20 @@ button:hover {
   white-space: break-spaces;
 }
 
-/* Estilos para la lista de coberturas */
 .insurance-card ul {
-  margin-top: 10px; /* Espaciado superior */
-  margin-bottom: 10px; /* Espaciado inferior */
-  padding-left: 20px; /* Sangría a la izquierda */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
 }
 
-/* Estilos para el botón */
 .insurance-card button {
-  background-color: #ffcc80; /* Naranja claro */
-  border: none; /* Sin borde */
-  border-radius: 5px; /* Bordes redondeados */
-  padding: 10px 20px; /* Espaciado interno */
-  cursor: pointer; /* Cursor apuntador */
-  display: block; /* Mostrar como bloque */
-  margin: 0 auto; /* Centrar horizontalmente */
+  background-color: #ffcc80;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
 }
 
 .insurance-card button:hover {
@@ -271,15 +267,144 @@ button:hover {
 
 .insurance-conten {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Dos columnas de igual tamaño */
-  grid-auto-rows: minmax(
-    100px,
-    auto
-  ); /* Altura mínima de 100px, se ajusta automáticamente */
-  gap: 20px; /* Espacio entre las celdas */
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  gap: 20px;
 }
 
 .content-b {
   display: flex;
   flex-direction: column;
+}
+
+#claimsContainer {
+  background-color: #e0f2f1;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#claimsContainer p:first-child {
+  font-size: 24px;
+  color: #ff9800;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Media query para pantallas de hasta 425px */
+@media (max-width: 425px) {
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  h2,
+  p {
+    font-family: "Raleway", sans-serif;
+  }
+
+  /* Encabezado y pie de página */
+  header,
+  footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* Navbar */
+  nav {
+    background: #eaeaea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+  }
+
+  /* Contenedor principal */
+  .container {
+    margin: 0 10%;
+  }
+
+  /* Contenido principal */
+  main {
+    padding: 20px;
+  }
+
+  /* Formulario de reclamo */
+  .form-claim {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 20px;
+  }
+
+  /* Contenedor de reclamos */
+  #claimsContainer {
+    background-color: #e0f2f1;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  /* Primer párrafo dentro del contenedor de reclamos */
+  #claimsContainer p:first-child {
+    font-size: 20px;
+    color: #ff9800;
+    padding: 8px;
+    border-radius: 5px;
+  }
+
+  /* Encabezado y pie de página */
+  header {
+    height: 50px;
+  }
+
+  footer {
+    height: 6vh;
+  }
+
+  header h3,
+  footer {
+    font-size: 16px;
+  }
+
+  /* Navbar */
+  nav {
+    height: 40px;
+  }
+
+  nav img {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* Contenedor principal */
+  .container {
+    margin: 0 5%;
+  }
+
+  /* Contenido principal */
+  main {
+    padding: 10px;
+  }
+
+  /* Formulario de reclamo */
+  .form-claim {
+    top: initial;
+    left: initial;
+    margin-top: 10px;
+  }
+
+  /* Contenedor de reclamos */
+  #claimsContainer {
+    margin-top: 10px;
+  }
+
+  /* Primer párrafo dentro del contenedor de reclamos */
+  #claimsContainer p:first-child {
+    font-size: 18px;
+    padding: 6px;
+  }
 }

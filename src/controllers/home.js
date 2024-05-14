@@ -1,4 +1,5 @@
 import { insuranceData } from "../utils/data.js";
+
 export function handleHomeLogic() {
   const container = document.getElementById("insuranceContainer");
 
